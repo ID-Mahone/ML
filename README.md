@@ -29,7 +29,11 @@ To use this project, you’ll need to install the required dependencies. You can
    cd machine-learning_classification
 2. Install the dependencies:
 
-Using pip:
+   Using pip:
    ```bash
-pip install -r requirements.txt
-
+   pip install -r requirements.txt
+or: 
+   ```bash
+   conda create --name ml_classification python=3.8
+   conda activate ml_classification
+   pip install -r requirements.txt
