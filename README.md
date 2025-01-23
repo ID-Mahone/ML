@@ -1,7 +1,6 @@
 # Machine Learning Classification
 
-
-This repository is a part of my learning journey in Machine Learning, particularly in the area of classification. It provides hands-on examples using Python and popular libraries like scikit-learn. The goal is to understand the theory behind different classification techniques and apply them to practical datasets.
+This repository is part of my learning journey in Machine Learning, particularly in the area of classification. It provides hands-on examples using Python and popular libraries like scikit-learn. The goal is to understand the theory behind different classification techniques and apply them to practical datasets.
 
 ## Features
 
@@ -20,20 +19,24 @@ This repository is a part of my learning journey in Machine Learning, particular
 
 ## Installation
 
-To use this project, you’ll need to install the required dependencies. You can set up the environment using `pip` or `conda`:
+To use this project, install the required dependencies. You can set up the environment using `pip` or `conda`:
 
 1. Clone the repository:
-
    ```bash
    git clone https://github.com/ID-Mahone/machine-learning_classification.git
    cd machine-learning_classification
+   ```
+
 2. Install the dependencies:
 
    Using pip:
    ```bash
    pip install -r requirements.txt
-or: 
+   ```
+
+   Or using conda:
    ```bash
    conda create --name ml_classification python=3.8
    conda activate ml_classification
    pip install -r requirements.txt
+   
